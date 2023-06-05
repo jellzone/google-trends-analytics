@@ -23,7 +23,7 @@ python st1_google_trends.py
 ```
 这段代码将读取keywords.csv文件中的关键字，使用Google Trends API获取数据，并将结果保存到名为trends_data.csv的文件中。请注意，频繁请求可能导致访问受限。请遵守Google的服务条款和数据使用政策。
 
-## 步骤2
+## 步骤二
 ## 功能
 
 - 从CSV文件（例如：trends_data.csv）中读取关键字趋势数据。
@@ -63,6 +63,7 @@ python st2_check_the_trends.py
 ## 贡献
 
 如果你有任何改进或功能请求，请随时提交Pull Request或创建Issue。
+有任何技术方面问题可以联系Wechat: Jellzone
 
 ## 许可
 
