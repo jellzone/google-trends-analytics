@@ -6,16 +6,16 @@
 ## 步骤一：
 
 首先，确保您已安装pandas库，以便与pytrends库一起使用。如果尚未安装，请使用以下命令安装：
-```
-pip install pandas pytrends```
-接下来，我们将修改示例代码以读取CSV文件并获取关键字列表。假设您的CSV文件名为keywords.csv，结构如下：
 
+```pip install pandas pytrends```
+接下来，我们将修改示例代码以读取CSV文件并获取关键字列表。假设您的CSV文件名为keywords.csv，结构如下：
+```
 keyword
 关键字1
 关键字2
 关键字3
 ...
-
+```
 运行  st1_google_trends.py
 
 ```bash
