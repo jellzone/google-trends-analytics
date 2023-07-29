@@ -12,13 +12,13 @@
 接下来，我们将修改示例代码以读取CSV文件并获取关键字列表。假设您的CSV文件名为keywords.csv，结构如下：
 
 ```
-keyword
+keywords
 关键字1
 关键字2
 关键字3
 ...
 ```
-运行  st1_google_trends.py
+运行  st1_google_trends.py (更新版本是：st1_google_trends_v2.1 for single keyword)
 
 ```bash
 python st1_google_trends.py
@@ -31,7 +31,8 @@ python st1_google_trends.py
 - 从CSV文件（例如：trends_data.csv）中读取关键字趋势数据。
 - 使用matplotlib绘制样条曲线图，以便于比较多个关键字的趋势。
 - 根据需要筛选关键字，只显示所选关键字的趋势。
-- 默认显示前4个关键字的趋势。
+- ^^默认显示前4个关键字的趋势。^^
+  *（更新版本显示所有关键字，请使用：st2_check_the_trends - V3.1）
 
 ## 安装依赖库
 
@@ -57,7 +58,7 @@ pip install pandas matplotlib
 4. 在命令行中，导航至包含代码和CSV文件的目录，然后运行以下命令：
 
 ```bash
-python st2_check_the_trends.py
+python st2_check_the_trends - V3.1.py
 ```
 
 5. 代码将读取CSV文件中的数据，并根据指定的参数绘制样条曲线图。你可以查看生成的图像，以比较多个关键字的趋势。
